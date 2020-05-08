@@ -1,1 +1,1 @@
-Here you cand find my certificate of professional competence web & os management. To acces the site use index.html
+Here you can find my certificate about Tesla Motors. To acces the site use index.htm
