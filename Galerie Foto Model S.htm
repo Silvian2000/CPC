@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="ro">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+<title>Galerie Foto Model S</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body bgcolor="#303030" onload="FP_preloadImgs(/*url*/'buttonB11.gif', /*url*/'buttonB12.gif')">
+
+<p align="center"><a href="index.htm">
+<img border="0" src="Buton.png" width="60" height="65"></a></p>
+<p align="center">
+<a href="S1.htm">
+<img border="0" src="1%20(850%20x%20478).jpg" width="650" height="364"></a><a href="S2.htm"><img border="0" src="2%20(850%20x%20478).jpg" width="650" height="362"></a><a href="S3.htm"><img border="0" src="3%20(810%20x%20456).jpg" width="650" height="365"></a><a href="S4.htm"><img border="0" src="4%20(810%20x%20456).jpg" width="650" height="365"></a><a href="S5.htm"><img border="0" src="5%20(810%20x%20456).jpg" width="650" height="365"></a><a href="S6.htm"><img border="0" src="6%20(810%20x%20456).jpg" width="650" height="365"></a><a href="S7.htm"><img border="0" src="7%20(810%20x%20456).jpg" width="650" height="365"></a><a href="S8.htm"><img border="0" src="8%20(810%20x%20456).jpg" width="650" height="365"></a></p>
+
+<p align="center">
+<img border="0" id="img9" src="buttonB13.gif" height="35" width="200" alt="Autor: Alb Silvian-Vasile" onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'buttonB12.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img9',/*url*/'buttonB13.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img9',/*url*/'buttonB11.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img9',/*url*/'buttonB12.gif')" fp-style="fp-btn: Simple Text 3; fp-font-style: Italic; fp-font-color-normal: #000000; fp-font-color-hover: #800000; fp-font-color-press: #C0C0C0; fp-transparent: 1; fp-proportional: 0; fp-orig: 0" fp-title="Autor: Alb Silvian-Vasile"></p>
+
+</body>
+
+</html>
